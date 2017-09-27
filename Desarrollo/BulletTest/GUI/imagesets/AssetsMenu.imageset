@@ -1,0 +1,32 @@
+<Imageset autoScaled="vertical" imagefile="AssetsMenuHD.png" name="AssetsMenu" nativeHorzRes="1280" nativeVertRes="720" version="2">
+    <Image height="34" name="optionsIcon" width="35" xPos="784" yPos="45" />
+    <Image height="34" name="exitIcon" width="36" xPos="831" yPos="45" />
+    <Image height="59" name="StartIcon" width="61" xPos="878" yPos="30" />
+    <Image height="70" name="scheme1" width="192" xPos="1050" yPos="17" />
+    <Image height="80" name="scheme2" width="190" xPos="1041" yPos="102" />
+    <Image height="72" name="scheme3" width="91" xPos="1050" yPos="210" />
+    <Image height="270" name="planet" width="270" xPos="24" yPos="0" />
+    <Image height="54" name="optionSelected" width="303" xPos="699" yPos="120" />
+    <Image height="33" name="mStart" width="267" xPos="395" yPos="31" />
+    <Image height="47" name="Seleccion" width="342" xPos="62" yPos="333" />
+    <Image height="31" name="mJoin" width="267" xPos="395" yPos="85" />
+    <Image height="31" name="mAudio" width="267" xPos="395" yPos="142" />
+    <Image height="31" name="mVideo" width="267" xPos="395" yPos="200" />
+    <Image height="31" name="mGame" width="267" xPos="395" yPos="260" />
+    <Image height="31" name="mExit" width="267" xPos="395" yPos="312" />
+    <Image height="31" name="mExit_copy" width="267" xPos="395" yPos="367" />
+    <Image height="47" name="Seleccion_copy" width="342" xPos="62" yPos="415" />
+    <Image height="27" name="Invite" width="170" xPos="404" yPos="435" />
+    <Image height="30" name="NotReady" width="30" xPos="59" yPos="501" />
+    <Image height="30" name="Ready" width="30" xPos="59" yPos="545" />
+    <Image height="358" name="BlackFace" width="130" xPos="1105" yPos="304" />
+    <Image height="534" name="VerticalWhiteLine" width="6" xPos="1258" yPos="149" />
+    <Image height="32" name="ReadyText" width="110" xPos="406" yPos="486" />
+    <Image height="36" name="Players" width="148" xPos="408" yPos="533" />
+    <Image height="6" name="HorizontalWhiteLine" width="539" xPos="708" yPos="705" />
+    <Image height="29" name="Options" width="142" xPos="409" yPos="592" />
+    <Image height="29" name="Server" width="136" xPos="560" yPos="592" />
+    <Image height="32" name="Lan" width="70" xPos="409" yPos="635" />
+    <Image height="29" name="Internet" width="155" xPos="501" yPos="639" />
+    <Image height="31" name="mOptions" width="267" xPos="509" yPos="260" />
+</Imageset>

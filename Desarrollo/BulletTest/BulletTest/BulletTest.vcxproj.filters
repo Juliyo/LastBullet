@@ -1,0 +1,1212 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Motor\Animation.cpp">
+      <Filter>Source Code\Motor</Filter>
+    </ClCompile>
+    <ClCompile Include="Entities\Weapons\Asalto.cpp">
+      <Filter>Source Code\Entities\Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="Entities\WeaponDrops\AsaltoDrop.cpp">
+      <Filter>Source Code\Entities\WeaponDrops</Filter>
+    </ClCompile>
+    <ClCompile Include="Motor\Camera.cpp">
+      <Filter>Source Code\Motor</Filter>
+    </ClCompile>
+    <ClCompile Include="Otros\Clock.cpp">
+      <Filter>Source Code\Otros</Filter>
+    </ClCompile>
+    <ClCompile Include="Otros\Win32\ClockImpl.cpp">
+      <Filter>Source Code\Otros\Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Entities\Enemy.cpp">
+      <Filter>Source Code\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Entities\Entity.cpp">
+      <Filter>Source Code\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Entities\EntityManager.cpp">
+      <Filter>Source Code\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Source Code</Filter>
+    </ClCompile>
+    <ClCompile Include="Entities\Granada.cpp">
+      <Filter>Source Code\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Motor\GraphicEngine.cpp">
+      <Filter>Source Code\Motor</Filter>
+    </ClCompile>
+    <ClCompile Include="Entities\GunBullet.cpp">
+      <Filter>Source Code\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Handlers\InputHandler.cpp">
+      <Filter>Source Code\Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="Entities\KinematicCharacterController.cpp">
+      <Filter>Source Code\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Entities\LifeObject.cpp">
+      <Filter>Source Code\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Otros\Lista.cpp">
+      <Filter>Source Code\Otros</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Code</Filter>
+    </ClCompile>
+    <ClCompile Include="Motor\MapLoader.cpp">
+      <Filter>Source Code\Motor</Filter>
+    </ClCompile>
+    <ClCompile Include="Handlers\MessageHandler.cpp">
+      <Filter>Source Code\Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="Motor\PhysicsEngine.cpp">
+      <Filter>Source Code\Motor</Filter>
+    </ClCompile>
+    <ClCompile Include="Entities\PhysicsEntity.cpp">
+      <Filter>Source Code\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Entities\Weapons\Pistola.cpp">
+      <Filter>Source Code\Entities\Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="Entities\WeaponDrops\PistolaDrop.cpp">
+      <Filter>Source Code\Entities\WeaponDrops</Filter>
+    </ClCompile>
+    <ClCompile Include="Entities\Player.cpp">
+      <Filter>Source Code\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Motor\RenderState.cpp">
+      <Filter>Source Code\Motor</Filter>
+    </ClCompile>
+    <ClCompile Include="Entities\RocketBullet.cpp">
+      <Filter>Source Code\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Entities\RocketBulletEnemy.cpp">
+      <Filter>Source Code\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Entities\Weapons\RocketLauncher.cpp">
+      <Filter>Source Code\Entities\Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="Entities\WeaponDrops\RocketLauncherDrop.cpp">
+      <Filter>Source Code\Entities\WeaponDrops</Filter>
+    </ClCompile>
+    <ClCompile Include="Otros\Time.cpp">
+      <Filter>Source Code\Otros</Filter>
+    </ClCompile>
+    <ClCompile Include="Otros\Util.cpp">
+      <Filter>Source Code\Otros</Filter>
+    </ClCompile>
+    <ClCompile Include="Entities\Weapons\Weapon.cpp">
+      <Filter>Source Code\Entities\Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="Entities\WeaponDrops\WeaponDrop.cpp">
+      <Filter>Source Code\Entities\WeaponDrops</Filter>
+    </ClCompile>
+    <ClCompile Include="IA\MachineState.cpp">
+      <Filter>Source Code\IA</Filter>
+    </ClCompile>
+    <ClCompile Include="Entities\GroupEntity.cpp">
+      <Filter>Source Code\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Otros\LifeComponent.cpp">
+      <Filter>Source Code\Otros</Filter>
+    </ClCompile>
+    <ClCompile Include="Entities\Button.cpp">
+      <Filter>Source Code\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="TriggerSystem\TriggerSystem.cpp">
+      <Filter>Source Code\Triggers</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\Lobby.cpp">
+      <Filter>Source Code\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="Graph\SparseGraph.cpp">
+      <Filter>Source Code\Graph</Filter>
+    </ClCompile>
+    <ClCompile Include="Otros\Vec2f.cpp">
+      <Filter>Source Code\Otros</Filter>
+    </ClCompile>
+    <ClCompile Include="Otros\PriorityQueue.cpp">
+      <Filter>Source Code\Otros</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\GUI.cpp">
+      <Filter>Source Code\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\InGameHUD.cpp">
+      <Filter>Source Code\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\GUIManager.cpp">
+      <Filter>Source Code\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\DebugMenuGUI.cpp">
+      <Filter>Source Code\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Mapa\PathPlanner.cpp">
+      <Filter>Source Code\Mapa</Filter>
+    </ClCompile>
+    <ClCompile Include="Mapa\Map.cpp">
+      <Filter>Source Code\Mapa</Filter>
+    </ClCompile>
+    <ClCompile Include="Mapa\Celda.cpp">
+      <Filter>Source Code\Mapa</Filter>
+    </ClCompile>
+    <ClCompile Include="Graph\GraphNode.cpp">
+      <Filter>Source Code\Graph</Filter>
+    </ClCompile>
+    <ClCompile Include="Graph\GraphEdge.cpp">
+      <Filter>Source Code\Graph</Filter>
+    </ClCompile>
+    <ClCompile Include="Entities\Enemy_Bot.cpp">
+      <Filter>Source Code\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="IA\PathFollow.cpp">
+      <Filter>Source Code\IA</Filter>
+    </ClCompile>
+    <ClCompile Include="Mapa\Dijkstra.cpp">
+      <Filter>Source Code\Mapa</Filter>
+    </ClCompile>
+    <ClCompile Include="Motor\CameraShake.cpp">
+      <Filter>Source Code\Motor</Filter>
+    </ClCompile>
+    <ClCompile Include="Motor\GunRecoil.cpp">
+      <Filter>Source Code\Motor</Filter>
+    </ClCompile>
+    <ClCompile Include="Graph\AStarSearch.cpp">
+      <Filter>Source Code\Graph</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\NetworkManager.cpp">
+      <Filter>Source Code\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\NetObject.cpp">
+      <Filter>Source Code\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\NetPlayer.cpp">
+      <Filter>Source Code\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="Otros\DebugMarks.cpp">
+      <Filter>Headers\Otros</Filter>
+    </ClCompile>
+    <ClCompile Include="Motor\Color4f.cpp">
+      <Filter>Source Code\Motor</Filter>
+    </ClCompile>
+    <ClCompile Include="Motor\AnimatedSceneNode.cpp">
+      <Filter>Source Code\Motor\SceneNodes</Filter>
+    </ClCompile>
+    <ClCompile Include="Motor\BasicSceneNode.cpp">
+      <Filter>Source Code\Motor\SceneNodes</Filter>
+    </ClCompile>
+    <ClCompile Include="Motor\SceneNode.cpp">
+      <Filter>Source Code\Motor\SceneNodes</Filter>
+    </ClCompile>
+    <ClCompile Include="Motor\BillboardSceneNode.cpp">
+      <Filter>Source Code\Motor\SceneNodes</Filter>
+    </ClCompile>
+    <ClCompile Include="Otros\Settings.cpp">
+      <Filter>Headers\Otros</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\NetBot.cpp">
+      <Filter>Source Code\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="Handlers\Partida.cpp">
+      <Filter>Source Code\World</Filter>
+    </ClCompile>
+    <ClCompile Include="World\World.cpp">
+      <Filter>Source Code\World</Filter>
+    </ClCompile>
+    <ClCompile Include="EventSystem\EventListener.cpp">
+      <Filter>Source Code\EventSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="EventSystem\EventSystem.cpp">
+      <Filter>Source Code\EventSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\NetworkDebugger.cpp">
+      <Filter>Source Code\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="Entities\Weapons\Sniper.cpp">
+      <Filter>Source Code\Entities\Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="Entities\WeaponDrops\SniperDrop.cpp">
+      <Filter>Source Code\Entities\WeaponDrops</Filter>
+    </ClCompile>
+    <ClCompile Include="IA\FuzzyLogic\FuzzyModule.cpp">
+      <Filter>Source Code\IA\FuzzyLogic</Filter>
+    </ClCompile>
+    <ClCompile Include="IA\FuzzyLogic\FuzzyRule.cpp">
+      <Filter>Source Code\IA\FuzzyLogic</Filter>
+    </ClCompile>
+    <ClCompile Include="IA\FuzzyLogic\FuzzyVariable.cpp">
+      <Filter>Source Code\IA\FuzzyLogic</Filter>
+    </ClCompile>
+    <ClCompile Include="IA\FuzzyLogic\FuzzySet.cpp">
+      <Filter>Source Code\IA\FuzzyLogic\FuzzySet</Filter>
+    </ClCompile>
+    <ClCompile Include="IA\FuzzyLogic\FuzzySetLeftShoulder.cpp">
+      <Filter>Source Code\IA\FuzzyLogic\FuzzySet</Filter>
+    </ClCompile>
+    <ClCompile Include="IA\FuzzyLogic\FuzzySetRightShoulder.cpp">
+      <Filter>Source Code\IA\FuzzyLogic\FuzzySet</Filter>
+    </ClCompile>
+    <ClCompile Include="IA\FuzzyLogic\FuzzySetSingleton.cpp">
+      <Filter>Source Code\IA\FuzzyLogic\FuzzySet</Filter>
+    </ClCompile>
+    <ClCompile Include="IA\FuzzyLogic\FuzzySetTriangle.cpp">
+      <Filter>Source Code\IA\FuzzyLogic\FuzzySet</Filter>
+    </ClCompile>
+    <ClCompile Include="IA\FuzzyLogic\FzAND.cpp">
+      <Filter>Source Code\IA\FuzzyLogic\FuzzyOperators</Filter>
+    </ClCompile>
+    <ClCompile Include="IA\FuzzyLogic\FzOR.cpp">
+      <Filter>Source Code\IA\FuzzyLogic\FuzzyOperators</Filter>
+    </ClCompile>
+    <ClCompile Include="IA\FuzzyLogic\FzVery.cpp">
+      <Filter>Source Code\IA\FuzzyLogic\FuzzyEdge</Filter>
+    </ClCompile>
+    <ClCompile Include="IA\FuzzyLogic\FzFairly.cpp">
+      <Filter>Source Code\IA\FuzzyLogic\FuzzyEdge</Filter>
+    </ClCompile>
+    <ClCompile Include="IA\FuzzyLogic\FzSet.cpp">
+      <Filter>Source Code\IA\FuzzyLogic\FuzzySet</Filter>
+    </ClCompile>
+    <ClCompile Include="IA\SensorySystem\SensoryMemory.cpp">
+      <Filter>Source Code\IA\SensoryMemory</Filter>
+    </ClCompile>
+    <ClCompile Include="IA\StatesIA\BuscarVida.cpp">
+      <Filter>Source Code\IA\StatesIA</Filter>
+    </ClCompile>
+    <ClCompile Include="IA\StatesIA\BuscarWeapon.cpp">
+      <Filter>Source Code\IA\StatesIA</Filter>
+    </ClCompile>
+    <ClCompile Include="IA\StatesIA\Disparar.cpp">
+      <Filter>Source Code\IA\StatesIA</Filter>
+    </ClCompile>
+    <ClCompile Include="IA\StatesIA\Perseguir.cpp">
+      <Filter>Source Code\IA\StatesIA</Filter>
+    </ClCompile>
+    <ClCompile Include="IA\StatesIA\Patrullar.cpp">
+      <Filter>Source Code\IA\StatesIA</Filter>
+    </ClCompile>
+    <ClCompile Include="IA\TargetingSystem.cpp">
+      <Filter>Source Code\IA</Filter>
+    </ClCompile>
+    <ClCompile Include="IA\WeaponSystem.cpp">
+      <Filter>Source Code\IA</Filter>
+    </ClCompile>
+    <ClCompile Include="Entities\Character.cpp">
+      <Filter>Source Code\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="States\InGame.cpp">
+      <Filter>Headers\States</Filter>
+    </ClCompile>
+    <ClCompile Include="States\State.cpp">
+      <Filter>Headers\States</Filter>
+    </ClCompile>
+    <ClCompile Include="States\StateFactory.cpp">
+      <Filter>Headers\States</Filter>
+    </ClCompile>
+    <ClCompile Include="States\StateStack.cpp">
+      <Filter>Headers\States</Filter>
+    </ClCompile>
+    <ClCompile Include="States\Menu.cpp">
+      <Filter>Headers\States</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\MenuGUI.cpp">
+      <Filter>Source Code\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="States\LoadingState.cpp">
+      <Filter>Headers\States</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\LoadingStateGUI.cpp">
+      <Filter>Source Code\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\ParalellTask.cpp">
+      <Filter>Source Code\Otros</Filter>
+    </ClCompile>
+    <ClCompile Include="Otros\AssetsReader.cpp" />
+    <ClCompile Include="Otros\TimePerFrame.cpp" />
+    <ClCompile Include="GUI\SalirHUD.cpp" />
+    <ClCompile Include="IA\LogIA.cpp" />
+    <ClCompile Include="ParticleSystem\ExplosionParticleSystem.cpp">
+      <Filter>Source Code\ParticleSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleSystem\ParticleSystem.cpp">
+      <Filter>Source Code\ParticleSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="Otros\CharacterTypes.cpp">
+      <Filter>Source Code\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\AsyncEnemyFactory.cpp">
+      <Filter>Source Code\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\NetworkLog.cpp">
+      <Filter>Source Code\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="Entities\EntPassive.cpp">
+      <Filter>Source Code\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Entities\EntActive.cpp">
+      <Filter>Source Code\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Otros\ResourceProvider.cpp">
+      <Filter>Source Code\Otros</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\Lobby2\Lobby2Client.cpp">
+      <Filter>Source Code\Network\Lobby2</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\Lobby2\Lobby2Message.cpp">
+      <Filter>Source Code\Network\Lobby2</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\Lobby2\Lobby2Plugin.cpp">
+      <Filter>Source Code\Network\Lobby2</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\Lobby2\Lobby2Presence.cpp">
+      <Filter>Source Code\Network\Lobby2</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\Lobby2\Lobby2ResultCode.cpp">
+      <Filter>Source Code\Network\Lobby2</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\Lobby2\Lobby2Server.cpp">
+      <Filter>Source Code\Network\Lobby2</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\Lobby2\LibVoice\LibVoice.cpp">
+      <Filter>Source Code\Network\Lobby2\LibVoice</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\Lobby2\Rooms\IntervalTimer.cpp">
+      <Filter>Source Code\Network\Lobby2\Rooms</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\Lobby2\Rooms\ProfanityFilter.cpp">
+      <Filter>Source Code\Network\Lobby2\Rooms</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\Lobby2\Rooms\RoomsContainer.cpp">
+      <Filter>Source Code\Network\Lobby2\Rooms</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\Lobby2\Rooms\RoomsErrorCodes.cpp">
+      <Filter>Source Code\Network\Lobby2\Rooms</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\Lobby2\Rooms\RoomsPlugin.cpp">
+      <Filter>Source Code\Network\Lobby2\Rooms</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\Lobby2\Rooms\RoomTypes.cpp">
+      <Filter>Source Code\Network\Lobby2\Rooms</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\Lobby2\Steam\Lobby2Client_Steam.cpp">
+      <Filter>Source Code\Network\Lobby2\Steam</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\Lobby2\Steam\Lobby2Client_Steam_Impl.cpp">
+      <Filter>Source Code\Network\Lobby2\Steam</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\Lobby2\Steam\Lobby2Message_Steam.cpp">
+      <Filter>Source Code\Network\Lobby2\Steam</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\SteamResults.cpp">
+      <Filter>Source Code\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\NetworkPrediction.cpp">
+      <Filter>Headers\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="Otros\PrintableText.cpp">
+      <Filter>Headers\Otros</Filter>
+    </ClCompile>
+    <ClCompile Include="Motor\SoundManager.cpp">
+      <Filter>Headers\Motor</Filter>
+    </ClCompile>
+    <ClCompile Include="Motor\ClippingManager.cpp">
+      <Filter>Headers\Motor</Filter>
+    </ClCompile>
+    <ClCompile Include="Motor\ClippingZone.cpp">
+      <Filter>Headers\Motor</Filter>
+    </ClCompile>
+    <ClCompile Include="RegulatorIA.cpp" />
+    <ClCompile Include="Animation\AnimationCharacter.cpp">
+      <Filter>Headers\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation\AnimationMachine.cpp">
+      <Filter>Headers\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation\Death.cpp">
+      <Filter>Headers\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation\Idle.cpp">
+      <Filter>Headers\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation\Run.cpp">
+      <Filter>Headers\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation\Salto.cpp">
+      <Filter>Headers\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="Motor\StaticSceneNode.cpp">
+      <Filter>Headers\Motor\SceneNodes</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Command\Command.h">
+      <Filter>Headers\Command</Filter>
+    </ClInclude>
+    <ClInclude Include="Command\Jump.h">
+      <Filter>Headers\Command</Filter>
+    </ClInclude>
+    <ClInclude Include="Command\ListWeaponDown.h">
+      <Filter>Headers\Command</Filter>
+    </ClInclude>
+    <ClInclude Include="Command\ListWeaponUp.h">
+      <Filter>Headers\Command</Filter>
+    </ClInclude>
+    <ClInclude Include="Command\MoveDown.h">
+      <Filter>Headers\Command</Filter>
+    </ClInclude>
+    <ClInclude Include="Command\MoveLeft.h">
+      <Filter>Headers\Command</Filter>
+    </ClInclude>
+    <ClInclude Include="Command\MoveRight.h">
+      <Filter>Headers\Command</Filter>
+    </ClInclude>
+    <ClInclude Include="Command\MoveUp.h">
+      <Filter>Headers\Command</Filter>
+    </ClInclude>
+    <ClInclude Include="Entities\Weapons\Asalto.h">
+      <Filter>Headers\Entities\Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="Entities\Weapons\Pistola.h">
+      <Filter>Headers\Entities\Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="Entities\WeaponDrops\AsaltoDrop.h">
+      <Filter>Headers\Entities\WeaponDrops</Filter>
+    </ClInclude>
+    <ClInclude Include="Entities\WeaponDrops\PistolaDrop.h">
+      <Filter>Headers\Entities\WeaponDrops</Filter>
+    </ClInclude>
+    <ClInclude Include="Entities\Enemy.h">
+      <Filter>Headers\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Entities\Entity.h">
+      <Filter>Headers\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Entities\EntityManager.h">
+      <Filter>Headers\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Entities\Granada.h">
+      <Filter>Headers\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Entities\GunBullet.h">
+      <Filter>Headers\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Entities\KinematicCharacterController.h">
+      <Filter>Headers\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Entities\LifeObject.h">
+      <Filter>Headers\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Entities\PhysicsEntity.h">
+      <Filter>Headers\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Entities\Player.h">
+      <Filter>Headers\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Entities\RocketBullet.h">
+      <Filter>Headers\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Handlers\input_constants.h">
+      <Filter>Headers\Handlers</Filter>
+    </ClInclude>
+    <ClInclude Include="Handlers\InputHandler.h">
+      <Filter>Headers\Handlers</Filter>
+    </ClInclude>
+    <ClInclude Include="Handlers\Message.h">
+      <Filter>Headers\Handlers</Filter>
+    </ClInclude>
+    <ClInclude Include="Handlers\MessageHandler.h">
+      <Filter>Headers\Handlers</Filter>
+    </ClInclude>
+    <ClInclude Include="Motor\Animation.h">
+      <Filter>Headers\Motor</Filter>
+    </ClInclude>
+    <ClInclude Include="Motor\Camera.h">
+      <Filter>Headers\Motor</Filter>
+    </ClInclude>
+    <ClInclude Include="Motor\DebugDraw.h">
+      <Filter>Headers\Motor</Filter>
+    </ClInclude>
+    <ClInclude Include="Motor\GraphicEngine.h">
+      <Filter>Headers\Motor</Filter>
+    </ClInclude>
+    <ClInclude Include="Motor\MapLoader.h">
+      <Filter>Headers\Motor</Filter>
+    </ClInclude>
+    <ClInclude Include="Motor\PhysicsEngine.h">
+      <Filter>Headers\Motor</Filter>
+    </ClInclude>
+    <ClInclude Include="Motor\RenderState.h">
+      <Filter>Headers\Motor</Filter>
+    </ClInclude>
+    <ClInclude Include="Otros\Win32\ClockImpl.hpp">
+      <Filter>Headers\Otros\Win32</Filter>
+    </ClInclude>
+    <ClInclude Include="Otros\Clock.hpp">
+      <Filter>Headers\Otros</Filter>
+    </ClInclude>
+    <ClInclude Include="Otros\Lista.h">
+      <Filter>Headers\Otros</Filter>
+    </ClInclude>
+    <ClInclude Include="Otros\Nodo.h">
+      <Filter>Headers\Otros</Filter>
+    </ClInclude>
+    <ClInclude Include="Entities\RocketBulletEnemy.h">
+      <Filter>Headers\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Entities\Weapons\RocketLauncher.h">
+      <Filter>Headers\Entities\Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="Entities\WeaponDrops\RocketLauncherDrop.h">
+      <Filter>Headers\Entities\WeaponDrops</Filter>
+    </ClInclude>
+    <ClInclude Include="Otros\SafeQueue.h">
+      <Filter>Headers\Otros</Filter>
+    </ClInclude>
+    <ClInclude Include="Command\ShootAsalto.h">
+      <Filter>Headers\Command</Filter>
+    </ClInclude>
+    <ClInclude Include="Command\ShootPistola.h">
+      <Filter>Headers\Command</Filter>
+    </ClInclude>
+    <ClInclude Include="Command\ShootRocket.h">
+      <Filter>Headers\Command</Filter>
+    </ClInclude>
+    <ClInclude Include="Otros\Util.h">
+      <Filter>Headers\Otros</Filter>
+    </ClInclude>
+    <ClInclude Include="Otros\Time.hpp">
+      <Filter>Headers\Otros</Filter>
+    </ClInclude>
+    <ClInclude Include="Otros\vec3.hpp">
+      <Filter>Headers\Otros</Filter>
+    </ClInclude>
+    <ClInclude Include="Entities\Weapons\Weapon.h">
+      <Filter>Headers\Entities\Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="Entities\WeaponDrops\WeaponDrop.h">
+      <Filter>Headers\Entities\WeaponDrops</Filter>
+    </ClInclude>
+    <ClInclude Include="IA\StatesIA\StateIA.h">
+      <Filter>Headers\IA\StatesIA</Filter>
+    </ClInclude>
+    <ClInclude Include="Entities\GroupEntity.h">
+      <Filter>Headers\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Otros\LifeComponent.h">
+      <Filter>Headers\Otros</Filter>
+    </ClInclude>
+    <ClInclude Include="Entities\Button.h">
+      <Filter>Headers\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="TriggerSystem\TriggerRecordStruct.h">
+      <Filter>Headers\Triggers</Filter>
+    </ClInclude>
+    <ClInclude Include="TriggerSystem\TriggerSystem.h">
+      <Filter>Headers\Triggers</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Estructuras.h">
+      <Filter>Headers\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Lobby.h">
+      <Filter>Headers\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="Graph\GraphNode.h">
+      <Filter>Headers\Graph</Filter>
+    </ClInclude>
+    <ClInclude Include="Graph\NavGraphNode.h">
+      <Filter>Headers\Graph</Filter>
+    </ClInclude>
+    <ClInclude Include="Graph\GraphEdge.h">
+      <Filter>Headers\Graph</Filter>
+    </ClInclude>
+    <ClInclude Include="Graph\SparseGraph.h">
+      <Filter>Headers\Graph</Filter>
+    </ClInclude>
+    <ClInclude Include="Otros\Vec2f.h">
+      <Filter>Headers\Otros</Filter>
+    </ClInclude>
+    <ClInclude Include="Otros\PriorityQueue.h">
+      <Filter>Headers\Otros</Filter>
+    </ClInclude>
+    <ClInclude Include="Graph\AStarSearch.h">
+      <Filter>Headers\Graph</Filter>
+    </ClInclude>
+    <ClInclude Include="Graph\Heuristic.h">
+      <Filter>Headers\Graph</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\GUI.h">
+      <Filter>Headers\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\InGameHUD.h">
+      <Filter>Headers\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\GUIManager.h">
+      <Filter>Headers\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\DebugMenuGUI.h">
+      <Filter>Headers\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Mapa\PathPlanner.h">
+      <Filter>Headers\Mapa</Filter>
+    </ClInclude>
+    <ClInclude Include="Mapa\Map.h">
+      <Filter>Headers\Mapa</Filter>
+    </ClInclude>
+    <ClInclude Include="Mapa\BoundingBox.h">
+      <Filter>Headers\Mapa</Filter>
+    </ClInclude>
+    <ClInclude Include="Mapa\Celda.h">
+      <Filter>Headers\Mapa</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Entities\Enemy_Bot.h">
+      <Filter>Headers\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="IA\PathFollow.h">
+      <Filter>Headers\IA</Filter>
+    </ClInclude>
+    <ClInclude Include="Command\Reload.h">
+      <Filter>Headers\Command</Filter>
+    </ClInclude>
+    <ClInclude Include="IA\Path.h">
+      <Filter>Headers\IA</Filter>
+    </ClInclude>
+    <ClInclude Include="Mapa\Dijkstra.h">
+      <Filter>Headers\Mapa</Filter>
+    </ClInclude>
+    <ClInclude Include="Motor\CameraShake.h">
+      <Filter>Headers\Motor</Filter>
+    </ClInclude>
+    <ClInclude Include="Motor\GunRecoil.h">
+      <Filter>Headers\Motor</Filter>
+    </ClInclude>
+    <ClInclude Include="Graph\GraphEnumeration.h">
+      <Filter>Headers\Graph</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\NetObject.h">
+      <Filter>Headers\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\NetworkManager.h">
+      <Filter>Headers\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\NetPlayer.h">
+      <Filter>Headers\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="World\World.h">
+      <Filter>Headers\World</Filter>
+    </ClInclude>
+    <ClInclude Include="EventSystem\EventListener.h">
+      <Filter>Headers\EventSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="EventSystem\EventSystem.h">
+      <Filter>Headers\EventSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="EventSystem\events\Event.h">
+      <Filter>Headers\EventSystem\events</Filter>
+    </ClInclude>
+    <ClInclude Include="EventSystem\events\KillEvent.h">
+      <Filter>Headers\EventSystem\events</Filter>
+    </ClInclude>
+    <ClInclude Include="EventSystem\events\MuerteEvent.h">
+      <Filter>Headers\EventSystem\events</Filter>
+    </ClInclude>
+    <ClInclude Include="EventSystem\events\PlayerEvent.h">
+      <Filter>Headers\EventSystem\events</Filter>
+    </ClInclude>
+    <ClInclude Include="Otros\DebugMarks.h">
+      <Filter>Headers\Otros</Filter>
+    </ClInclude>
+    <ClInclude Include="Motor\Color4f.h">
+      <Filter>Headers\Motor</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\NetworkDebugger.h">
+      <Filter>Headers\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="EventSystem\events\DebugNetEvent.h">
+      <Filter>Headers\EventSystem\events</Filter>
+    </ClInclude>
+    <ClInclude Include="Motor\AnimatedSceneNode.h">
+      <Filter>Headers\Motor\SceneNodes</Filter>
+    </ClInclude>
+    <ClInclude Include="Motor\BasicSceneNode.h">
+      <Filter>Headers\Motor\SceneNodes</Filter>
+    </ClInclude>
+    <ClInclude Include="Motor\SceneNode.h">
+      <Filter>Headers\Motor\SceneNodes</Filter>
+    </ClInclude>
+    <ClInclude Include="Motor\BillboardSceneNode.h">
+      <Filter>Headers\Motor\SceneNodes</Filter>
+    </ClInclude>
+    <ClInclude Include="Otros\Settings.h">
+      <Filter>Headers\Otros</Filter>
+    </ClInclude>
+    <ClInclude Include="Handlers\Partida.h">
+      <Filter>Headers\World</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\NetBot.h">
+      <Filter>Headers\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="Entities\Character.h">
+      <Filter>Headers\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Entities\Weapons\Sniper.h">
+      <Filter>Headers\Entities\Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="Entities\WeaponDrops\SniperDrop.h">
+      <Filter>Headers\Entities\WeaponDrops</Filter>
+    </ClInclude>
+    <ClInclude Include="IA\FuzzyLogic\FuzzyModule.h">
+      <Filter>Headers\IA\FuzzyLogic</Filter>
+    </ClInclude>
+    <ClInclude Include="IA\FuzzyLogic\FuzzyRule.h">
+      <Filter>Headers\IA\FuzzyLogic</Filter>
+    </ClInclude>
+    <ClInclude Include="IA\FuzzyLogic\FuzzyTerm.h">
+      <Filter>Headers\IA\FuzzyLogic</Filter>
+    </ClInclude>
+    <ClInclude Include="IA\FuzzyLogic\FuzzyVariable.h">
+      <Filter>Headers\IA\FuzzyLogic</Filter>
+    </ClInclude>
+    <ClInclude Include="IA\FuzzyLogic\FuzzySet.h">
+      <Filter>Headers\IA\FuzzyLogic\FuzzySet</Filter>
+    </ClInclude>
+    <ClInclude Include="IA\FuzzyLogic\FuzzySetLeftShoulder.h">
+      <Filter>Headers\IA\FuzzyLogic\FuzzySet</Filter>
+    </ClInclude>
+    <ClInclude Include="IA\FuzzyLogic\FuzzySetRightShoulder.h">
+      <Filter>Headers\IA\FuzzyLogic\FuzzySet</Filter>
+    </ClInclude>
+    <ClInclude Include="IA\FuzzyLogic\FuzzySetTriangle.h">
+      <Filter>Headers\IA\FuzzyLogic\FuzzySet</Filter>
+    </ClInclude>
+    <ClInclude Include="IA\FuzzyLogic\FuzzySetSingleton.h">
+      <Filter>Headers\IA\FuzzyLogic\FuzzySet</Filter>
+    </ClInclude>
+    <ClInclude Include="IA\FuzzyLogic\FzSet.h">
+      <Filter>Headers\IA\FuzzyLogic\FuzzySet</Filter>
+    </ClInclude>
+    <ClInclude Include="IA\FuzzyLogic\FzAND.h">
+      <Filter>Headers\IA\FuzzyLogic\FuzzyOperators</Filter>
+    </ClInclude>
+    <ClInclude Include="IA\FuzzyLogic\FzOR.h">
+      <Filter>Headers\IA\FuzzyLogic\FuzzyOperators</Filter>
+    </ClInclude>
+    <ClInclude Include="IA\FuzzyLogic\FzVery.h">
+      <Filter>Headers\IA\FuzzyLogic\FuzzyEdges</Filter>
+    </ClInclude>
+    <ClInclude Include="IA\FuzzyLogic\FzFairly.h">
+      <Filter>Headers\IA\FuzzyLogic\FuzzyEdges</Filter>
+    </ClInclude>
+    <ClInclude Include="IA\SensorySystem\Memory.h">
+      <Filter>Headers\IA\SensoryMemory</Filter>
+    </ClInclude>
+    <ClInclude Include="IA\SensorySystem\SensoryMemory.h">
+      <Filter>Headers\IA\SensoryMemory</Filter>
+    </ClInclude>
+    <ClInclude Include="IA\StatesIA\Patrullar.h">
+      <Filter>Headers\IA\StatesIA</Filter>
+    </ClInclude>
+    <ClInclude Include="IA\MachineState.h">
+      <Filter>Headers\IA</Filter>
+    </ClInclude>
+    <ClInclude Include="IA\StatesIA\BuscarVida.h">
+      <Filter>Headers\IA\StatesIA</Filter>
+    </ClInclude>
+    <ClInclude Include="IA\StatesIA\BuscarWeapon.h">
+      <Filter>Headers\IA\StatesIA</Filter>
+    </ClInclude>
+    <ClInclude Include="IA\StatesIA\Disparar.h">
+      <Filter>Headers\IA\StatesIA</Filter>
+    </ClInclude>
+    <ClInclude Include="IA\StatesIA\Perseguir.h">
+      <Filter>Headers\IA\StatesIA</Filter>
+    </ClInclude>
+    <ClInclude Include="IA\WeaponSystem.h">
+      <Filter>Headers\IA</Filter>
+    </ClInclude>
+    <ClInclude Include="IA\TargetingSystem.h">
+      <Filter>Headers\IA</Filter>
+    </ClInclude>
+    <ClInclude Include="States\InGame.h">
+      <Filter>Headers\States</Filter>
+    </ClInclude>
+    <ClInclude Include="States\State.h">
+      <Filter>Headers\States</Filter>
+    </ClInclude>
+    <ClInclude Include="States\StateFactory.h">
+      <Filter>Headers\States</Filter>
+    </ClInclude>
+    <ClInclude Include="States\StateStack.h">
+      <Filter>Headers\States</Filter>
+    </ClInclude>
+    <ClInclude Include="EventSystem\events\GameStartEvent.h">
+      <Filter>Headers\EventSystem\events</Filter>
+    </ClInclude>
+    <ClInclude Include="States\Menu.h">
+      <Filter>Headers\States</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\MenuGUI.h">
+      <Filter>Headers\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Otros\Quaternion.h">
+      <Filter>Source Code\Otros</Filter>
+    </ClInclude>
+    <ClInclude Include="States\LoadingState.h">
+      <Filter>Headers\States</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\LoadingStateGUI.h">
+      <Filter>Headers\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\ParalellTask.h">
+      <Filter>Headers\Otros</Filter>
+    </ClInclude>
+    <ClInclude Include="Otros\AssetsReader.h">
+      <Filter>Source Code\Otros</Filter>
+    </ClInclude>
+    <ClInclude Include="Otros\TimePerFrame.h">
+      <Filter>Headers\Otros</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\SalirHUD.h">
+      <Filter>Headers\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="IA\LogIA.h">
+      <Filter>Headers\IA</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleSystem\ExplosionParticleSystem.h">
+      <Filter>Headers\ParticleSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleSystem\ParticleSystem.h">
+      <Filter>Headers\ParticleSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\AsyncEnemyFactory.h">
+      <Filter>Headers\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="Otros\CharacterTypes.h">
+      <Filter>Headers\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\NetworkLog.h">
+      <Filter>Headers\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="Entities\EntPassive.h">
+      <Filter>Source Code\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Entities\EntActive.h">
+      <Filter>Source Code\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Otros\ResourceProvider.h">
+      <Filter>Source Code\Otros</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Lobby2\Lobby2Client.h">
+      <Filter>Headers\Network\Lobby2</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Lobby2\Lobby2Message.h">
+      <Filter>Headers\Network\Lobby2</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Lobby2\Lobby2Plugin.h">
+      <Filter>Headers\Network\Lobby2</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Lobby2\Lobby2Presence.h">
+      <Filter>Headers\Network\Lobby2</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Lobby2\Lobby2ResultCode.h">
+      <Filter>Headers\Network\Lobby2</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Lobby2\Lobby2Server.h">
+      <Filter>Headers\Network\Lobby2</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Lobby2\LibVoice\LibVoice.h">
+      <Filter>Headers\Network\Lobby2\LibVoice</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Lobby2\Rooms\IntervalTimer.h">
+      <Filter>Headers\Network\Lobby2\Rooms</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Lobby2\Rooms\ProfanityFilter.h">
+      <Filter>Headers\Network\Lobby2\Rooms</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Lobby2\Rooms\RoomsContainer.h">
+      <Filter>Headers\Network\Lobby2\Rooms</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Lobby2\Rooms\RoomsErrorCodes.h">
+      <Filter>Headers\Network\Lobby2\Rooms</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Lobby2\Rooms\RoomsPlugin.h">
+      <Filter>Headers\Network\Lobby2\Rooms</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Lobby2\Rooms\RoomTypes.h">
+      <Filter>Headers\Network\Lobby2\Rooms</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Lobby2\Steam\Lobby2Client_Steam.h">
+      <Filter>Headers\Network\Lobby2\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Lobby2\Steam\Lobby2Client_Steam_Impl.h">
+      <Filter>Headers\Network\Lobby2\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Lobby2\Steam\Lobby2Message_Steam.h">
+      <Filter>Headers\Network\Lobby2\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\SteamResults.h">
+      <Filter>Headers\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\NetworkPrediction.h">
+      <Filter>Headers\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="Otros\PrintableText.h">
+      <Filter>Headers\Otros</Filter>
+    </ClInclude>
+    <ClInclude Include="Motor\SoundManager.h">
+      <Filter>Headers\Motor</Filter>
+    </ClInclude>
+    <ClInclude Include="Motor\ClippingManager.h">
+      <Filter>Headers\Motor</Filter>
+    </ClInclude>
+    <ClInclude Include="Motor\ClippingZone.h">
+      <Filter>Headers\Motor</Filter>
+    </ClInclude>
+    <ClInclude Include="IA\RegulatorIA.h" />
+    <ClInclude Include="Animation\AnimationCharacter.h">
+      <Filter>Headers\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation\AnimationMachine.h">
+      <Filter>Headers\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation\Death.h">
+      <Filter>Headers\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="global.h" />
+    <ClInclude Include="Animation\Idle.h">
+      <Filter>Headers\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation\Run.h">
+      <Filter>Headers\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation\Salto.h">
+      <Filter>Headers\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="Motor\StaticSceneNode.h">
+      <Filter>Headers\Motor\SceneNodes</Filter>
+    </ClInclude>
+    <ClInclude Include="EventSystem\events\PlayerReadyEvent.h">
+      <Filter>Headers\EventSystem\events</Filter>
+    </ClInclude>
+    <ClInclude Include="EventSystem\events\EndGameEvent.h">
+      <Filter>Headers\EventSystem\events</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Headers">
+      <UniqueIdentifier>{7e5cb38e-df18-4383-b886-8922cba7640f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\Command">
+      <UniqueIdentifier>{68b2ba8f-8aba-4177-b0b1-3a5014315de4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\Entities">
+      <UniqueIdentifier>{16321299-4b9a-432f-a2e1-b84cb41420c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\Handlers">
+      <UniqueIdentifier>{fc44c554-4d85-4865-b85b-2680622eeb58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\Network">
+      <UniqueIdentifier>{3090e9c9-04be-415c-8ea7-baead59c642c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\Motor">
+      <UniqueIdentifier>{01ae817d-0503-47cd-91f3-26e7d7bc3b82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\States">
+      <UniqueIdentifier>{b7a2ccdb-4b14-44a3-b47c-fb417c53133e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\Otros">
+      <UniqueIdentifier>{dc318a0d-90df-4956-88b8-45f13da397d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\Entities\WeaponDrops">
+      <UniqueIdentifier>{afad51c7-90bd-4f8f-9798-76a6eee32611}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\Entities\Weapons">
+      <UniqueIdentifier>{de2e46fd-4e07-4575-a59a-8b643884917e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\Otros\Unix">
+      <UniqueIdentifier>{79d42502-20e4-4cb2-8b21-3efefe9cc630}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\Otros\Win32">
+      <UniqueIdentifier>{1567c3a2-e20c-496e-924b-37d854ee5f62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Code">
+      <UniqueIdentifier>{45330646-68e3-4070-9cba-ab95ad9e1531}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Code\Command">
+      <UniqueIdentifier>{19b770d7-4bf4-4d32-9771-852de22f8970}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Code\Entities">
+      <UniqueIdentifier>{cce5d9bc-6499-4e8a-8e91-cb0fe7f217f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Code\Entities\WeaponDrops">
+      <UniqueIdentifier>{332778ab-9a11-4308-b2f0-3ba71dd16899}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Code\Entities\Weapons">
+      <UniqueIdentifier>{b9705a29-9e16-4425-9040-aea8d679bb35}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Code\Handlers">
+      <UniqueIdentifier>{c89799ad-f92c-483d-8c10-0de76020f415}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Code\Network">
+      <UniqueIdentifier>{c4d4e0b3-e8c2-448a-9df5-da24e4d4f7b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Code\Motor">
+      <UniqueIdentifier>{6214818f-61dd-472d-82f5-1e6cdb48b327}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Code\Otros">
+      <UniqueIdentifier>{d839b23e-7ffc-4cab-8409-51c9646cabb8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Code\Otros\Unix">
+      <UniqueIdentifier>{db50364c-ef27-4cfc-959b-243759b67d8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Code\Otros\Win32">
+      <UniqueIdentifier>{338acc5a-cf6b-4950-9f67-4ad50c96aff0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Code\States">
+      <UniqueIdentifier>{febefd0d-7a70-4874-b759-d053f123f209}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Code\IA">
+      <UniqueIdentifier>{50008096-fcb1-4d85-84ff-a10d8622be9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\IA">
+      <UniqueIdentifier>{fff18ddd-9e65-47e4-a079-82db5326020f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\IA\StatesIA">
+      <UniqueIdentifier>{7bb3c964-ee1d-4eda-91e3-ac8afea02647}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\Triggers">
+      <UniqueIdentifier>{9bd96187-52c6-4ad2-958b-bd988f214669}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Code\Triggers">
+      <UniqueIdentifier>{17dd4573-bcb8-417e-8853-2db89b04696f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\Graph">
+      <UniqueIdentifier>{099bf12f-7bcc-4e03-aaf8-9a544966d8e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Code\Graph">
+      <UniqueIdentifier>{95a495db-6776-44d6-a5eb-5307bd595c3d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\GUI">
+      <UniqueIdentifier>{bf92a5ce-b109-4864-9144-c1c12caa25ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Code\GUI">
+      <UniqueIdentifier>{c504afe8-4421-43cd-b8c1-fb0e67287c32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\Mapa">
+      <UniqueIdentifier>{02e8a2dd-215b-4ce8-b36e-127e3ff7bd3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Code\Mapa">
+      <UniqueIdentifier>{fe557c46-1c73-462b-85de-eb93c9fa13ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\World">
+      <UniqueIdentifier>{022800d7-819b-4b2e-966e-475edb5fa585}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\EventSystem">
+      <UniqueIdentifier>{c9ad2c0c-bed5-4c40-b3fe-0db829235990}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\EventSystem\events">
+      <UniqueIdentifier>{f2e09faa-e587-423a-b8b2-29f536ed3723}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\Motor\SceneNodes">
+      <UniqueIdentifier>{41e3170b-fac8-4d80-8ca8-84df611b95bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Code\Motor\SceneNodes">
+      <UniqueIdentifier>{415a8231-2487-467d-8dc9-9cfbab0bd2ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Code\EventSystem">
+      <UniqueIdentifier>{a0d6284c-9d18-4e66-852e-f510ba1d33af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Code\World">
+      <UniqueIdentifier>{816031e2-2a39-4cad-a249-62f2081bab55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Code\EventSystem\events">
+      <UniqueIdentifier>{e47cc754-e8a3-4db0-970d-067cecb33108}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Code\IA\FuzzyLogic">
+      <UniqueIdentifier>{ec730b27-642a-4ffd-bdd2-0076c3eb5dd6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Code\IA\SensoryMemory">
+      <UniqueIdentifier>{ce96cbd4-4ef5-41c7-9ab3-650dc62b7948}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Code\IA\StatesIA">
+      <UniqueIdentifier>{f7780a3c-d95d-4990-807c-f64b4812e010}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\IA\SensoryMemory">
+      <UniqueIdentifier>{e80f6439-2609-4508-9465-19e1507b1e4c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\IA\FuzzyLogic">
+      <UniqueIdentifier>{0064db2b-b4fa-45bb-93cf-023a48529d91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\IA\FuzzyLogic\FuzzySet">
+      <UniqueIdentifier>{cde5f27a-cf29-4271-8532-9ef295c6f473}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\IA\FuzzyLogic\FuzzyOperators">
+      <UniqueIdentifier>{20f52995-7037-4db8-b925-00242df83621}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\IA\FuzzyLogic\FuzzyEdges">
+      <UniqueIdentifier>{d2933daf-a40f-47bd-abbc-fea20a84fdbe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Code\IA\FuzzyLogic\FuzzySet">
+      <UniqueIdentifier>{63cdc11a-d655-4f46-9df6-dd3e54d1181d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Code\IA\FuzzyLogic\FuzzyEdge">
+      <UniqueIdentifier>{58c1e73d-a92d-4b6d-af60-89efd70eda69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Code\IA\FuzzyLogic\FuzzyOperators">
+      <UniqueIdentifier>{7f1aad0f-89d7-48ad-bceb-bbfd785beb7e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Code\ParticleSystem">
+      <UniqueIdentifier>{49e08e7e-8651-4698-849f-a27b4981745e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\ParticleSystem">
+      <UniqueIdentifier>{335e67ea-4334-4065-91e6-7c6a729008cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Code\Network\Lobby2">
+      <UniqueIdentifier>{4677c94f-6850-4406-b80b-dfe15f4d7c42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Code\Network\Lobby2\Steam">
+      <UniqueIdentifier>{86d34882-6597-4e3d-ae99-78dba160f9af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Code\Network\Lobby2\LibVoice">
+      <UniqueIdentifier>{cb653e18-d619-41a6-ad27-ee3e47e89b1c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Code\Network\Lobby2\PGSQL">
+      <UniqueIdentifier>{c8e31d83-51b8-4273-a54f-843c23817dad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Code\Network\Lobby2\Rooms">
+      <UniqueIdentifier>{36b2f08f-731d-427c-96eb-caedb19103de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\Network\Lobby2">
+      <UniqueIdentifier>{df699e02-1526-4237-a3ad-1fdc916343fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\Network\Lobby2\Steam">
+      <UniqueIdentifier>{0d4f3644-6b75-4365-a096-2a01ee95ed3d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\Network\Lobby2\LibVoice">
+      <UniqueIdentifier>{121df35e-332b-4274-b857-5de3e2ee8235}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\Network\Lobby2\PGSQL">
+      <UniqueIdentifier>{02d27f5e-974e-4a1d-875c-6cf0f4734eea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\Network\Lobby2\Rooms">
+      <UniqueIdentifier>{38b262ec-fef1-4146-93d1-0720673df850}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\Animation">
+      <UniqueIdentifier>{11c07210-e9bf-4930-b9aa-521444a5f6f8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="BulletTest1.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="C:\Users\Toni\Desktop\iconolb.ico" />
+    <Image Include="C:\Users\Toni\Desktop\Iconnn.ico" />
+  </ItemGroup>
+</Project>

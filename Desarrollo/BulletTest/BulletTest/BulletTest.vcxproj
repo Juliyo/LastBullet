@@ -1,0 +1,517 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{268151BF-2ADD-465C-A291-69C17809B54D}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>BulletTest</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>GLEW_STATIC;CEGUI_STATIC;_CRT_SECURE_NO_WARNINGS;NOMINMAX;WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>Animation;World;EventSystem;Mapa;GUI;Graph;Otros;Motor;IA;Handlers;TriggerSystem;States;Entities;Command;Network;../include/SPARK;..\include\irrlitch;..\include\bullet;..\include\Raknet;../include;ParticleSystem;../include/Steam;Network\Lobby2\;Network\Lobby2\Steam</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>..\lib;..\lib\irrlitch;..\lib\bullet;../lib/Debug;..\Debug;../../Motor/Motor/lib/Debug;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>Winmm.lib;Dbghelp.lib;Opengl32.lib;glew_d.lib;zlib_d.lib;assimp-vc140-mt.lib;SOIL.lib;glfw3.lib;Motor.lib;steam_api.lib;SILLY_d.lib;freetype_d.lib;jpeg_d.lib;libexpat_d.lib;libpng_d.lib;pcre_d.lib;pugixml_d.lib;SPARK_debug.lib;SPARK_GL_debug.lib;CEGUISILLYImageCodec_Static_d.lib;CEGUIExpatParser_Static_d.lib;CEGUICoreWindowRendererSet_Static_d.lib;CEGUIOpenGLRenderer-0_Static_d.lib;CEGUICommonDialogs-0_Static_d.lib;CEGUIBase-0_Static_d.lib;BulletCollision_Debug.lib;BulletDynamics_Debug.lib;BulletSoftBody_Debug.lib;LinearMath_Debug.lib;RakNet_VS2008_LibStatic_Debug_Win32.lib;ws2_32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <EntryPointSymbol>
+      </EntryPointSymbol>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <Optimization>Full</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>GLEW_STATIC;CEGUI_STATIC;_CRT_SECURE_NO_WARNINGS;NOMINMAX;WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>Animation;World;EventSystem;Mapa;GUI;Graph;Otros;Motor;IA;Handlers;TriggerSystem;States;Entities;Command;Network;../include/SPARK;..\include\irrlitch;..\include\bullet;..\include\Raknet;../include;ParticleSystem;../include/Steam;Network\Lobby2\;Network\Lobby2\Steam</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <AdditionalUsingDirectories>
+      </AdditionalUsingDirectories>
+      <WholeProgramOptimization>false</WholeProgramOptimization>
+      <ShowIncludes>false</ShowIncludes>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>Opengl32.lib;glew.lib;zlibstatic.lib;zlib.lib;assimp-vc140-mt.lib;SOIL.lib;glfw3.lib;Motor.lib;steam_api.lib;SILLY.lib;freetype.lib;jpeg.lib;libexpat.lib;libpng.lib;pcre.lib;pugixml.lib;SPARK.lib;SPARK_GL.lib;CEGUIExpatParser_Static.lib;CEGUICoreWindowRendererSet_Static.lib;CEGUIOpenGLRenderer-0_Static.lib;CEGUICommonDialogs-0_Static.lib;CEGUISILLYImageCodec_Static.lib;CEGUIBase-0_Static.lib;BulletCollision.lib;BulletDynamics.lib;BulletSoftBody.lib;LinearMath.lib;ws2_32.lib;RakNet_Release.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>..\lib;..\lib\irrlitch;..\lib\bullet;..\lib\Release</AdditionalLibraryDirectories>
+    </Link>
+    <ProjectReference>
+      <UseLibraryDependencyInputs>false</UseLibraryDependencyInputs>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Animation\AnimationCharacter.h" />
+    <ClInclude Include="Animation\AnimationMachine.h" />
+    <ClInclude Include="Animation\Death.h" />
+    <ClInclude Include="Animation\Idle.h" />
+    <ClInclude Include="Animation\Run.h" />
+    <ClInclude Include="Animation\Salto.h" />
+    <ClInclude Include="Command\Command.h" />
+    <ClInclude Include="Command\Jump.h" />
+    <ClInclude Include="Command\ListWeaponDown.h" />
+    <ClInclude Include="Command\ListWeaponUp.h" />
+    <ClInclude Include="Command\MoveDown.h" />
+    <ClInclude Include="Command\MoveLeft.h" />
+    <ClInclude Include="Command\MoveRight.h" />
+    <ClInclude Include="Command\MoveUp.h" />
+    <ClInclude Include="Command\Reload.h" />
+    <ClInclude Include="Command\ShootAsalto.h" />
+    <ClInclude Include="Command\ShootPistola.h" />
+    <ClInclude Include="Command\ShootRocket.h" />
+    <ClInclude Include="Entities\Button.h" />
+    <ClInclude Include="Entities\Character.h" />
+    <ClInclude Include="Entities\Enemy_Bot.h" />
+    <ClInclude Include="Entities\EntActive.h" />
+    <ClInclude Include="Entities\EntPassive.h" />
+    <ClInclude Include="Entities\Granada.h" />
+    <ClInclude Include="Entities\GroupEntity.h" />
+    <ClInclude Include="Entities\GunBullet.h" />
+    <ClInclude Include="Entities\Enemy.h" />
+    <ClInclude Include="Entities\Entity.h" />
+    <ClInclude Include="Entities\EntityManager.h" />
+    <ClInclude Include="Entities\KinematicCharacterController.h" />
+    <ClInclude Include="Entities\LifeObject.h" />
+    <ClInclude Include="Entities\PhysicsEntity.h" />
+    <ClInclude Include="Entities\Player.h" />
+    <ClInclude Include="Entities\RocketBullet.h" />
+    <ClInclude Include="Entities\RocketBulletEnemy.h" />
+    <ClInclude Include="Entities\WeaponDrops\AsaltoDrop.h" />
+    <ClInclude Include="Entities\WeaponDrops\PistolaDrop.h" />
+    <ClInclude Include="Entities\WeaponDrops\RocketLauncherDrop.h" />
+    <ClInclude Include="Entities\WeaponDrops\SniperDrop.h" />
+    <ClInclude Include="Entities\WeaponDrops\WeaponDrop.h" />
+    <ClInclude Include="Entities\Weapons\Asalto.h" />
+    <ClInclude Include="Entities\Weapons\Pistola.h" />
+    <ClInclude Include="Entities\Weapons\RocketLauncher.h" />
+    <ClInclude Include="Entities\Weapons\Sniper.h" />
+    <ClInclude Include="Entities\Weapons\Weapon.h" />
+    <ClInclude Include="EventSystem\EventListener.h" />
+    <ClInclude Include="EventSystem\EventSystem.h" />
+    <ClInclude Include="EventSystem\events\DebugNetEvent.h" />
+    <ClInclude Include="EventSystem\events\EndGameEvent.h" />
+    <ClInclude Include="EventSystem\events\Event.h" />
+    <ClInclude Include="EventSystem\events\GameStartEvent.h" />
+    <ClInclude Include="EventSystem\events\KillEvent.h" />
+    <ClInclude Include="EventSystem\events\MuerteEvent.h" />
+    <ClInclude Include="EventSystem\events\PlayerEvent.h" />
+    <ClInclude Include="EventSystem\events\PlayerReadyEvent.h" />
+    <ClInclude Include="Game.h" />
+    <ClInclude Include="global.h" />
+    <ClInclude Include="Graph\AStarSearch.h" />
+    <ClInclude Include="Graph\GraphEdge.h" />
+    <ClInclude Include="Graph\GraphEnumeration.h" />
+    <ClInclude Include="Graph\GraphNode.h" />
+    <ClInclude Include="Graph\Heuristic.h" />
+    <ClInclude Include="Graph\NavGraphNode.h" />
+    <ClInclude Include="Graph\SparseGraph.h" />
+    <ClInclude Include="GUI\DebugMenuGUI.h" />
+    <ClInclude Include="GUI\GUI.h" />
+    <ClInclude Include="GUI\GUIManager.h" />
+    <ClInclude Include="GUI\InGameHUD.h" />
+    <ClInclude Include="GUI\LoadingStateGUI.h" />
+    <ClInclude Include="GUI\MenuGUI.h" />
+    <ClInclude Include="GUI\ParalellTask.h" />
+    <ClInclude Include="GUI\SalirHUD.h" />
+    <ClInclude Include="Handlers\InputHandler.h" />
+    <ClInclude Include="Handlers\input_constants.h" />
+    <ClInclude Include="Handlers\Message.h" />
+    <ClInclude Include="Handlers\MessageHandler.h" />
+    <ClInclude Include="Handlers\Partida.h" />
+    <ClInclude Include="IA\FuzzyLogic\FuzzyModule.h" />
+    <ClInclude Include="IA\FuzzyLogic\FuzzyRule.h" />
+    <ClInclude Include="IA\FuzzyLogic\FuzzySet.h" />
+    <ClInclude Include="IA\FuzzyLogic\FuzzySetLeftShoulder.h" />
+    <ClInclude Include="IA\FuzzyLogic\FuzzySetRightShoulder.h" />
+    <ClInclude Include="IA\FuzzyLogic\FuzzySetSingleton.h" />
+    <ClInclude Include="IA\FuzzyLogic\FuzzySetTriangle.h" />
+    <ClInclude Include="IA\FuzzyLogic\FuzzyTerm.h" />
+    <ClInclude Include="IA\FuzzyLogic\FuzzyVariable.h" />
+    <ClInclude Include="IA\FuzzyLogic\FzAND.h" />
+    <ClInclude Include="IA\FuzzyLogic\FzFairly.h" />
+    <ClInclude Include="IA\FuzzyLogic\FzOR.h" />
+    <ClInclude Include="IA\FuzzyLogic\FzSet.h" />
+    <ClInclude Include="IA\FuzzyLogic\FzVery.h" />
+    <ClInclude Include="IA\LogIA.h" />
+    <ClInclude Include="IA\MachineState.h" />
+    <ClInclude Include="IA\Path.h" />
+    <ClInclude Include="IA\PathFollow.h" />
+    <ClInclude Include="IA\RegulatorIA.h" />
+    <ClInclude Include="IA\SensorySystem\Memory.h" />
+    <ClInclude Include="IA\SensorySystem\SensoryMemory.h" />
+    <ClInclude Include="IA\StatesIA\BuscarVida.h" />
+    <ClInclude Include="IA\StatesIA\BuscarWeapon.h" />
+    <ClInclude Include="IA\StatesIA\Disparar.h" />
+    <ClInclude Include="IA\StatesIA\Patrullar.h" />
+    <ClInclude Include="IA\StatesIA\Perseguir.h" />
+    <ClInclude Include="IA\StatesIA\StateIA.h" />
+    <ClInclude Include="IA\TargetingSystem.h" />
+    <ClInclude Include="IA\WeaponSystem.h" />
+    <ClInclude Include="Mapa\BoundingBox.h" />
+    <ClInclude Include="Mapa\Celda.h" />
+    <ClInclude Include="Mapa\Dijkstra.h" />
+    <ClInclude Include="Mapa\Map.h" />
+    <ClInclude Include="Mapa\PathPlanner.h" />
+    <ClInclude Include="Motor\AnimatedSceneNode.h" />
+    <ClInclude Include="Motor\Animation.h" />
+    <ClInclude Include="Motor\BillboardSceneNode.h" />
+    <ClInclude Include="Motor\Camera.h" />
+    <ClInclude Include="Motor\CameraShake.h" />
+    <ClInclude Include="Motor\ClippingManager.h" />
+    <ClInclude Include="Motor\ClippingZone.h" />
+    <ClInclude Include="Motor\Color4f.h" />
+    <ClInclude Include="Motor\DebugDraw.h" />
+    <ClInclude Include="Motor\GraphicEngine.h" />
+    <ClInclude Include="Motor\GunRecoil.h" />
+    <ClInclude Include="Motor\MapLoader.h" />
+    <ClInclude Include="Motor\PhysicsEngine.h" />
+    <ClInclude Include="Motor\RenderState.h" />
+    <ClInclude Include="Motor\BasicSceneNode.h" />
+    <ClInclude Include="Motor\SceneNode.h" />
+    <ClInclude Include="Motor\SoundManager.h" />
+    <ClInclude Include="Motor\StaticSceneNode.h" />
+    <ClInclude Include="Network\AsyncEnemyFactory.h" />
+    <ClInclude Include="Network\Estructuras.h" />
+    <ClInclude Include="Network\Lobby.h" />
+    <ClInclude Include="Network\Lobby2\LibVoice\LibVoice.h" />
+    <ClInclude Include="Network\Lobby2\Lobby2Client.h" />
+    <ClInclude Include="Network\Lobby2\Lobby2Message.h" />
+    <ClInclude Include="Network\Lobby2\Lobby2Plugin.h" />
+    <ClInclude Include="Network\Lobby2\Lobby2Presence.h" />
+    <ClInclude Include="Network\Lobby2\Lobby2ResultCode.h" />
+    <ClInclude Include="Network\Lobby2\Lobby2Server.h" />
+    <ClInclude Include="Network\Lobby2\Rooms\IntervalTimer.h" />
+    <ClInclude Include="Network\Lobby2\Rooms\ProfanityFilter.h" />
+    <ClInclude Include="Network\Lobby2\Rooms\RoomsContainer.h" />
+    <ClInclude Include="Network\Lobby2\Rooms\RoomsErrorCodes.h" />
+    <ClInclude Include="Network\Lobby2\Rooms\RoomsPlugin.h" />
+    <ClInclude Include="Network\Lobby2\Rooms\RoomTypes.h" />
+    <ClInclude Include="Network\Lobby2\Steam\Lobby2Client_Steam.h" />
+    <ClInclude Include="Network\Lobby2\Steam\Lobby2Client_Steam_Impl.h" />
+    <ClInclude Include="Network\Lobby2\Steam\Lobby2Message_Steam.h" />
+    <ClInclude Include="Network\NetBot.h" />
+    <ClInclude Include="Network\NetObject.h" />
+    <ClInclude Include="Network\NetPlayer.h" />
+    <ClInclude Include="Network\NetworkDebugger.h" />
+    <ClInclude Include="Network\NetworkLog.h" />
+    <ClInclude Include="Network\NetworkManager.h" />
+    <ClInclude Include="Network\NetworkPrediction.h" />
+    <ClInclude Include="Network\SteamResults.h" />
+    <ClInclude Include="Otros\AssetsReader.h" />
+    <ClInclude Include="Otros\CharacterTypes.h" />
+    <ClInclude Include="Otros\Clock.hpp" />
+    <ClInclude Include="Otros\DebugMarks.h" />
+    <ClInclude Include="Otros\LifeComponent.h" />
+    <ClInclude Include="Otros\Lista.h" />
+    <ClInclude Include="Otros\Nodo.h" />
+    <ClInclude Include="Otros\PrintableText.h" />
+    <ClInclude Include="Otros\PriorityQueue.h" />
+    <ClInclude Include="Otros\Quaternion.h" />
+    <ClInclude Include="Otros\ResourceProvider.h" />
+    <ClInclude Include="Otros\SafeQueue.h" />
+    <ClInclude Include="Otros\Settings.h" />
+    <ClInclude Include="Otros\Time.hpp" />
+    <ClInclude Include="Otros\TimePerFrame.h" />
+    <ClInclude Include="Otros\Util.h" />
+    <ClInclude Include="Otros\Vec2f.h" />
+    <ClInclude Include="Otros\vec3.hpp" />
+    <ClInclude Include="Otros\Win32\ClockImpl.hpp" />
+    <ClInclude Include="ParticleSystem\ExplosionParticleSystem.h" />
+    <ClInclude Include="ParticleSystem\ParticleSystem.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="States\InGame.h" />
+    <ClInclude Include="States\LoadingState.h" />
+    <ClInclude Include="States\Menu.h" />
+    <ClInclude Include="States\State.h" />
+    <ClInclude Include="States\StateFactory.h" />
+    <ClInclude Include="States\StateStack.h" />
+    <ClInclude Include="TriggerSystem\TriggerRecordStruct.h" />
+    <ClInclude Include="TriggerSystem\TriggerSystem.h" />
+    <ClInclude Include="World\World.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Animation\AnimationCharacter.cpp" />
+    <ClCompile Include="Animation\AnimationMachine.cpp" />
+    <ClCompile Include="Animation\Death.cpp" />
+    <ClCompile Include="Animation\Idle.cpp" />
+    <ClCompile Include="Animation\Run.cpp" />
+    <ClCompile Include="Animation\Salto.cpp" />
+    <ClCompile Include="Entities\Button.cpp" />
+    <ClCompile Include="Entities\Character.cpp" />
+    <ClCompile Include="Entities\Enemy_Bot.cpp" />
+    <ClCompile Include="Entities\EntActive.cpp" />
+    <ClCompile Include="Entities\EntPassive.cpp" />
+    <ClCompile Include="Entities\Granada.cpp" />
+    <ClCompile Include="Entities\GroupEntity.cpp" />
+    <ClCompile Include="Entities\GunBullet.cpp" />
+    <ClCompile Include="Entities\Enemy.cpp" />
+    <ClCompile Include="Entities\Entity.cpp" />
+    <ClCompile Include="Entities\EntityManager.cpp" />
+    <ClCompile Include="Entities\KinematicCharacterController.cpp" />
+    <ClCompile Include="Entities\LifeObject.cpp" />
+    <ClCompile Include="Entities\PhysicsEntity.cpp" />
+    <ClCompile Include="Entities\Player.cpp" />
+    <ClCompile Include="Entities\RocketBullet.cpp" />
+    <ClCompile Include="Entities\RocketBulletEnemy.cpp" />
+    <ClCompile Include="Entities\WeaponDrops\AsaltoDrop.cpp" />
+    <ClCompile Include="Entities\WeaponDrops\PistolaDrop.cpp" />
+    <ClCompile Include="Entities\WeaponDrops\RocketLauncherDrop.cpp" />
+    <ClCompile Include="Entities\WeaponDrops\SniperDrop.cpp" />
+    <ClCompile Include="Entities\WeaponDrops\WeaponDrop.cpp" />
+    <ClCompile Include="Entities\Weapons\Asalto.cpp" />
+    <ClCompile Include="Entities\Weapons\Pistola.cpp" />
+    <ClCompile Include="Entities\Weapons\RocketLauncher.cpp" />
+    <ClCompile Include="Entities\Weapons\Sniper.cpp" />
+    <ClCompile Include="Entities\Weapons\Weapon.cpp" />
+    <ClCompile Include="EventSystem\EventListener.cpp" />
+    <ClCompile Include="EventSystem\EventSystem.cpp" />
+    <ClCompile Include="Graph\AStarSearch.cpp" />
+    <ClCompile Include="Graph\GraphEdge.cpp" />
+    <ClCompile Include="Graph\GraphNode.cpp" />
+    <ClCompile Include="Graph\SparseGraph.cpp" />
+    <ClCompile Include="GUI\DebugMenuGUI.cpp" />
+    <ClCompile Include="GUI\GUI.cpp" />
+    <ClCompile Include="GUI\GUIManager.cpp" />
+    <ClCompile Include="GUI\InGameHUD.cpp" />
+    <ClCompile Include="GUI\LoadingStateGUI.cpp" />
+    <ClCompile Include="GUI\MenuGUI.cpp" />
+    <ClCompile Include="GUI\ParalellTask.cpp" />
+    <ClCompile Include="GUI\SalirHUD.cpp" />
+    <ClCompile Include="Handlers\InputHandler.cpp" />
+    <ClCompile Include="Handlers\MessageHandler.cpp" />
+    <ClCompile Include="Handlers\Partida.cpp" />
+    <ClCompile Include="IA\FuzzyLogic\FuzzyModule.cpp" />
+    <ClCompile Include="IA\FuzzyLogic\FuzzyRule.cpp" />
+    <ClCompile Include="IA\FuzzyLogic\FuzzySet.cpp" />
+    <ClCompile Include="IA\FuzzyLogic\FuzzySetLeftShoulder.cpp" />
+    <ClCompile Include="IA\FuzzyLogic\FuzzySetRightShoulder.cpp" />
+    <ClCompile Include="IA\FuzzyLogic\FuzzySetSingleton.cpp" />
+    <ClCompile Include="IA\FuzzyLogic\FuzzySetTriangle.cpp" />
+    <ClCompile Include="IA\FuzzyLogic\FuzzyVariable.cpp" />
+    <ClCompile Include="IA\FuzzyLogic\FzAND.cpp" />
+    <ClCompile Include="IA\FuzzyLogic\FzFairly.cpp" />
+    <ClCompile Include="IA\FuzzyLogic\FzOR.cpp" />
+    <ClCompile Include="IA\FuzzyLogic\FzSet.cpp" />
+    <ClCompile Include="IA\FuzzyLogic\FzVery.cpp" />
+    <ClCompile Include="IA\LogIA.cpp" />
+    <ClCompile Include="IA\MachineState.cpp" />
+    <ClCompile Include="IA\PathFollow.cpp" />
+    <ClCompile Include="IA\SensorySystem\SensoryMemory.cpp" />
+    <ClCompile Include="IA\StatesIA\BuscarVida.cpp" />
+    <ClCompile Include="IA\StatesIA\BuscarWeapon.cpp" />
+    <ClCompile Include="IA\StatesIA\Disparar.cpp" />
+    <ClCompile Include="IA\StatesIA\Patrullar.cpp" />
+    <ClCompile Include="IA\StatesIA\Perseguir.cpp" />
+    <ClCompile Include="IA\TargetingSystem.cpp" />
+    <ClCompile Include="IA\WeaponSystem.cpp" />
+    <ClCompile Include="Mapa\Celda.cpp" />
+    <ClCompile Include="Mapa\Dijkstra.cpp" />
+    <ClCompile Include="Mapa\Map.cpp" />
+    <ClCompile Include="Mapa\PathPlanner.cpp" />
+    <ClCompile Include="Game.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Motor\AnimatedSceneNode.cpp" />
+    <ClCompile Include="Motor\Animation.cpp" />
+    <ClCompile Include="Motor\BillboardSceneNode.cpp" />
+    <ClCompile Include="Motor\Camera.cpp" />
+    <ClCompile Include="Motor\CameraShake.cpp" />
+    <ClCompile Include="Motor\ClippingManager.cpp" />
+    <ClCompile Include="Motor\ClippingZone.cpp" />
+    <ClCompile Include="Motor\Color4f.cpp" />
+    <ClCompile Include="Motor\GraphicEngine.cpp" />
+    <ClCompile Include="Motor\GunRecoil.cpp" />
+    <ClCompile Include="Motor\MapLoader.cpp" />
+    <ClCompile Include="Motor\PhysicsEngine.cpp" />
+    <ClCompile Include="Motor\RenderState.cpp" />
+    <ClCompile Include="Motor\BasicSceneNode.cpp" />
+    <ClCompile Include="Motor\SceneNode.cpp" />
+    <ClCompile Include="Motor\SoundManager.cpp" />
+    <ClCompile Include="Motor\StaticSceneNode.cpp" />
+    <ClCompile Include="Network\AsyncEnemyFactory.cpp" />
+    <ClCompile Include="Network\Lobby.cpp" />
+    <ClCompile Include="Network\Lobby2\LibVoice\LibVoice.cpp" />
+    <ClCompile Include="Network\Lobby2\Lobby2Client.cpp" />
+    <ClCompile Include="Network\Lobby2\Lobby2Message.cpp" />
+    <ClCompile Include="Network\Lobby2\Lobby2Plugin.cpp" />
+    <ClCompile Include="Network\Lobby2\Lobby2Presence.cpp" />
+    <ClCompile Include="Network\Lobby2\Lobby2ResultCode.cpp" />
+    <ClCompile Include="Network\Lobby2\Lobby2Server.cpp" />
+    <ClCompile Include="Network\Lobby2\Rooms\IntervalTimer.cpp" />
+    <ClCompile Include="Network\Lobby2\Rooms\ProfanityFilter.cpp" />
+    <ClCompile Include="Network\Lobby2\Rooms\RoomsContainer.cpp" />
+    <ClCompile Include="Network\Lobby2\Rooms\RoomsErrorCodes.cpp" />
+    <ClCompile Include="Network\Lobby2\Rooms\RoomsPlugin.cpp" />
+    <ClCompile Include="Network\Lobby2\Rooms\RoomTypes.cpp" />
+    <ClCompile Include="Network\Lobby2\Steam\Lobby2Client_Steam.cpp" />
+    <ClCompile Include="Network\Lobby2\Steam\Lobby2Client_Steam_Impl.cpp" />
+    <ClCompile Include="Network\Lobby2\Steam\Lobby2Message_Steam.cpp" />
+    <ClCompile Include="Network\NetBot.cpp" />
+    <ClCompile Include="Network\NetObject.cpp" />
+    <ClCompile Include="Network\NetPlayer.cpp" />
+    <ClCompile Include="Network\NetworkDebugger.cpp" />
+    <ClCompile Include="Network\NetworkLog.cpp" />
+    <ClCompile Include="Network\NetworkManager.cpp" />
+    <ClCompile Include="Network\NetworkPrediction.cpp" />
+    <ClCompile Include="Network\SteamResults.cpp" />
+    <ClCompile Include="Otros\AssetsReader.cpp" />
+    <ClCompile Include="Otros\CharacterTypes.cpp" />
+    <ClCompile Include="Otros\Clock.cpp" />
+    <ClCompile Include="Otros\DebugMarks.cpp" />
+    <ClCompile Include="Otros\LifeComponent.cpp" />
+    <ClCompile Include="Otros\Lista.cpp" />
+    <ClCompile Include="Otros\PrintableText.cpp" />
+    <ClCompile Include="Otros\PriorityQueue.cpp" />
+    <ClCompile Include="Otros\ResourceProvider.cpp" />
+    <ClCompile Include="Otros\Settings.cpp" />
+    <ClCompile Include="Otros\Time.cpp" />
+    <ClCompile Include="Otros\TimePerFrame.cpp" />
+    <ClCompile Include="Otros\Util.cpp" />
+    <ClCompile Include="Otros\Vec2f.cpp" />
+    <ClCompile Include="Otros\Win32\ClockImpl.cpp" />
+    <ClCompile Include="ParticleSystem\ExplosionParticleSystem.cpp" />
+    <ClCompile Include="ParticleSystem\ParticleSystem.cpp" />
+    <ClCompile Include="RegulatorIA.cpp" />
+    <ClCompile Include="States\InGame.cpp" />
+    <ClCompile Include="States\LoadingState.cpp" />
+    <ClCompile Include="States\Menu.cpp" />
+    <ClCompile Include="States\State.cpp" />
+    <ClCompile Include="States\StateFactory.cpp" />
+    <ClCompile Include="States\StateStack.cpp" />
+    <ClCompile Include="TriggerSystem\TriggerSystem.cpp" />
+    <ClCompile Include="World\World.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="BulletTest1.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="C:\Users\Toni\Desktop\Iconnn.ico" />
+    <Image Include="C:\Users\Toni\Desktop\iconolb.ico" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
